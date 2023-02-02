@@ -1,0 +1,46 @@
+#cuerpo
+{
+    background-color: rgb(93, 98, 98);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera h1
+{
+    background-color: rgb(7, 7, 56);
+    color: aliceblue;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#cabecera p
+{
+    background-color: rgb(7, 7, 56);
+    color: aliceblue;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#contenedor
+{
+    width: 70%;
+    padding: 0;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(39, 18, 58);
+    border: 1px, solid rgb(1, 1, 1);
+    margin: 0 auto;
+}
+
+#footer
+{
+    background-color: rgb(7, 7, 56);
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8em;
+}
