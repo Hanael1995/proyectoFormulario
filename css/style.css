@@ -9,9 +9,9 @@ main
 {
     display: flex;
     width: 100%;
+    height: 900px;
     border: 1px solid black;
     padding: 10px 10px;
-    height: 50vh;
 }
 #cuerpo
 {
@@ -21,34 +21,34 @@ main
     padding: 0;
 }
 
-#cabecera h1
+#cabecera
 {
     background-color: rgb(7, 7, 56);
     color: aliceblue;
-    margin: auto;
     padding: 10px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
+    position: relative;
+    width: 100%;
 }
 
 #cabecera p
 {
     background-color: rgb(7, 7, 56);
     color: aliceblue;
-    margin: auto;
     padding: 10px;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.5em;
 }
 
 #contenedor
 {
-
     padding: 0;
     text-align: center;
     color: aliceblue;
     background-color: rgb(39, 18, 58);
     border: 1px, solid rgb(1, 1, 1);
+
 }
 
 #contenedor form
@@ -70,9 +70,14 @@ main
 
 #reglas
 {
+    width: 1300px;
+    height: 500px;
     padding: 20px;
     border: 1px solid black;
     background-color: rgb(39, 18, 58);
     color: aliceblue;
-    font-size: 0.6em;
+    font-size: 0.8em;
+    position: relative;
+    bottom: -220px;
+    right: 400px;
 }
