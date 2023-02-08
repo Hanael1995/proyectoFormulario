@@ -7,30 +7,29 @@
 
 #cuerpo
 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: rgb(93, 98, 98);
     font-size: 30px;
+    color: aliceblue;
 }
 
 main
 {
-    display: flex;
+    background-color: aqua;
 }
 
 #cabecera
 {
     background-color: rgb(116, 178, 17);
     padding: 10px;
-    color: aliceblue;
     text-align: center;
-    font-size: 1em;
-    position: relative;
+    font-size: 0.8em;
 }
 
 #cabecera p
 {
-    background-color: rgb(7, 7, 56);
-    color: aliceblue;
-    padding: 10px;
     text-align: center;
     font-size: 0.8em;
 }
@@ -40,7 +39,6 @@ main
     background-color: rgb(222, 119, 8);
     padding: 20px;
     text-align: center;
-    color: aliceblue;
     border: 1px, solid rgb(1, 1, 1);
 
 }
@@ -48,10 +46,17 @@ main
 #contenedor form
 {
     background-color: brown;
-    width: 500px;
-    font-size: 0.8em;
     padding: 10px;
+    font-size: 0.8em;
     border: 1px solid black;
+}
+
+#reglas
+{
+    background-color: rgb(39, 18, 58);
+    text-align: center;
+    padding: 30px;
+    font-size: 0.7em;
 }
 
 #footer
@@ -59,13 +64,5 @@ main
     background-color: rgb(7, 7, 56);
     padding: 5px;
     text-align: center;
-    font-size: 0.8em;
-}
-
-#reglas
-{
-    background-color: rgb(39, 18, 58);
-    padding: 30px;
-    color: aliceblue;
     font-size: 0.8em;
 }
