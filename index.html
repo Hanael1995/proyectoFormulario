@@ -7,21 +7,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="cuerpo">
+    <header id="cabecera">
+        <h1>Hotel Miramar</h1>
+        <p>Inscribete y obten 20% de descuento en tu reserva de habitaciones sencillas.</p>
+    </header>
     <main>
-        <header id="cabecera">
-            <h1>Formulario Online</h1>
-            <p>Adquiere tu prueba gratuita.</p>
-        </header>
         <div id="reglas">
-            <p>Registrate y adquiere una prueba gratuita de nuestro programa exclusivo.</p>
+            <p>Pasos para obtener el descuento en nuestra reserva de habitaciones sencillas:</p>
             <ul><br>
-                <li>No es necesario tener tarjeta de credito</li>
-                <li>El registro te tomara solo de minutos.</li>
+                <li>1. Registrate en el formulario que se encuentra en esta pagina web.</li>
+                <li>2. Revisa tu correo, alli recibiras un codigo promocional.</li>
+                <li>3. Reserva una habitación sencilla a traves del formulario de reservas que sale tras inscribirte, alli debes colocar el codigo promocional en el campo "Cupon".</li>
+                <li>5. Una ves que se efectue el pago de la reserva le llegara un correo de confirmación de la misma.</li>
 
             </ul>
         </div>
         <div id="contenedor">
-            <p>Escriba los datos siguientes para realizar su reserva.</p><br>
+            <p>Rellena el siguiente formulario con tus datos, para aplicar a la promoción.</p><br>
             <form action="#" id="formulario">
                 <label for="nombre" id="label1">
                     <span>NOMBRE</span>
@@ -35,9 +37,17 @@
                     <span>CORREO</span>
                     <input type="email" id="correo" >
                 </label><br>
+                <label for="telefono" id="label4">
+                    <span>TELEFONO</span>
+                    <input type="number" id="telefono" >
+                </label><br>
+                <label for="TyC" id="label5">
+                    <span>Acepto terminos y condiciones.</span>
+                    <input type="checkbox" id="TvC" >
+                </label><br>
                 <label for="submit">
-                    <span>ENVIAR</span>
-                    <input type="submit">
+                    <span></span>
+                    <input type="submit" id="boton">
                 </label>
             </form>
         </div>
