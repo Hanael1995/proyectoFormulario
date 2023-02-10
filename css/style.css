@@ -8,12 +8,11 @@
 main
 {
     background-color: aqua;
-    width: 1000px;
 }
 
 #cabecera
 {
-    width: 1000px;
+    display: flex;
     background-color: rgb(116, 178, 17);
     padding: 10px;
     text-align: center;
@@ -22,8 +21,23 @@ main
 
 #cabecera p
 {
-    text-align: center;
     font-size: 0.8em;
+}
+
+#nav ul
+{
+    background-color: blueviolet;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+#nav li a
+{
+    color: aliceblue;
+    padding: 10px;
 }
 
 #cuerpo
@@ -41,17 +55,16 @@ main
     background-color: rgb(222, 119, 8);
     padding: 20px;
     text-align: center;
-    border: 1px, solid rgb(1, 1, 1);
 
 }
 
 #contenedor form
 {
-    width: 550px;
+    text-align: left;
     background-color: brown;
-    padding: 10px;
+    padding: 30px;
     font-size: 0.7em;
-    border: 1px solid black;
+    border: 1px solid rgb(126, 37, 37);
     box-shadow: 0px 2px 20px 0px rgb(0, 0, 0);
 }
 
@@ -84,12 +97,13 @@ main
 #boton
 {
     margin: 20px;
-    background-color: green;
+    background-color: rgb(210, 92, 18);
     color: aliceblue;
     font-weight: bold;
     font-size: 20px;
-    width: 150px;
+    width: 450px;
     height: 40px;
+    border: none;
     box-shadow: 0px 2px 20px 0px black;
 }
 
@@ -98,7 +112,6 @@ main
     margin: 10px;
     width: 300px;
     height: 40px;
-
 }
 
 #apellido

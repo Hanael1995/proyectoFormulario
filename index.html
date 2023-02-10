@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -10,6 +11,14 @@
     <header id="cabecera">
         <h1>Hotel Miramar</h1>
         <p>Inscribete y obten 20% de descuento en tu reserva de habitaciones sencillas.</p>
+        <nav id="nav">
+            <ul>
+                <li> <a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html">Sobre Nosotros</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html">Contacto</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html">PQR</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <div id="reglas">
@@ -26,24 +35,24 @@
             <p>Rellena el siguiente formulario con tus datos, para aplicar a la promoción.</p><br>
             <form action="#" id="formulario">
                 <label for="nombre" id="label1">
-                    <span>NOMBRE</span>
+                    <span>NOMBRE:</span>
                     <input type="text" id="nombre" >
                 </label><br>
                 <label for="apellido" id="label2">
-                    <span>APELLIDO</span>
+                    <span>APELLIDO:</span>
                     <input type="text" id="apellido" >
                 </label><br>
                 <label for="correo" id="label3">
-                    <span>CORREO</span>
+                    <span>CORREO:</span>
                     <input type="email" id="correo" >
                 </label><br>
                 <label for="telefono" id="label4">
-                    <span>TELEFONO</span>
+                    <span>TELEFONO:</span>
                     <input type="number" id="telefono" >
                 </label><br>
                 <label for="TyC" id="label5">
-                    <span>Acepto terminos y condiciones.</span>
-                    <input type="checkbox" id="TvC" >
+                    <input type="checkbox" id="TvC">
+                    <span>Acepto terminos y condiciones</span>
                 </label><br>
                 <label for="submit">
                     <span></span>
@@ -51,11 +60,9 @@
                 </label>
             </form>
         </div>
-        <div id="footer">
-            <p>
-                Derechos reservados.
-            </p>
-        </div>
+        <footer id="footer">
+            <p> Derechos Reservados</p>
+        </footer>
     </main>
 </body>
 </html>
